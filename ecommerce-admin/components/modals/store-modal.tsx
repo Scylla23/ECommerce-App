@@ -2,6 +2,7 @@
 
 import * as z from "zod";
 import axios from "axios";
+import axios from "axios";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod"
 //import toast from "react-hot-toast";
@@ -81,6 +82,7 @@ export const StoreModal = () => {
                   >
                   Cancel
                 </Button>
+                <Button disabled={loading} type="submit" >Continue</Button>
                 <Button disabled={loading} type="submit" >Continue</Button>
               </div>
             </form>
